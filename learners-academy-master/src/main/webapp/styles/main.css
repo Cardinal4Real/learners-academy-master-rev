@@ -1,0 +1,75 @@
+* {
+    font-family: "Poppins", serif;
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    background: #ececee;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.error {
+    color: red;
+    font-size: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+input, textarea, button, select {
+    padding: 2px 10px;
+    border-radius: 5px;
+    border: 0;
+    min-height: 36px;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+}
+
+table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 5px;
+}
+
+table th, table td {
+    padding: 12px 15px;
+}
+
+table th, table td {
+     padding: 12px 15px;
+ }
+
+table tbody tr {
+    border-bottom: 1px solid #f8e4e4;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #a29999;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/learners-academy-master/admin-portal.iml" filepath="$PROJECT_DIR$/learners-academy-master/admin-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/learners-academy-master-rev.iml" filepath="$PROJECT_DIR$/.idea/learners-academy-master-rev.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,44 @@
+
+.dashboard {
+    width: 100%;
+    display: flex;
+    background: #383838;
+    color: white;
+}
+
+.dashboard aside {
+    width: 20%;
+    min-width: 200px;
+    padding: 20px;
+}
+
+.dashboard main {
+    padding: 20px;
+    flex: 1;
+    background: #626262;
+    overflow: auto;
+}
+
+.dashboard a {
+    color: white;
+}
+
+.dashboard a:visited {
+    color: wheat;
+}
+
+.dashboard aside nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.danger {
+    background: #f54848;
+    color: white;
+}
+
+label {
+    /*margin: 50px;*/
+    display: flex;
+    align-items: center;
+}
